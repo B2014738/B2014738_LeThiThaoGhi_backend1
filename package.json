@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "Ghi",
   "license": "ISC",
@@ -12,5 +12,9 @@
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "update": "^0.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
+
